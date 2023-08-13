@@ -1,0 +1,118 @@
+package classification
+
+type UrlPath struct {
+	QueryUrl string
+	Pages    int
+	Remark   string
+}
+
+var Paths = map[string][]UrlPath{
+	"小学-三年级-习近平新时代中国特色社会主义思想学生读本": {
+		{
+			QueryUrl: "https://book.pep.com.cn/1291001103221/files/mobile/%d.jpg?%d",
+			Pages:    2,
+		},
+	},
+	"小学-五年级-习近平新时代中国特色社会主义思想学生读本": {
+		{
+			QueryUrl: "https://book.pep.com.cn/1291001403221/files/mobile/%d.jpg?%d",
+			Pages:    102,
+		},
+	},
+	"小学-一年级-道德与法治": {
+		{
+			QueryUrl: "https://book.pep.com.cn/1284001101161/files/mobile/%d.jpg?%d",
+			Pages:    78,
+		},
+		{
+			QueryUrl: "https://book.pep.com.cn/1284001102161/files/mobile/%d.jpg?%d",
+			Pages:    80,
+		},
+	},
+	"小学-一年级-语文": {
+		{
+			QueryUrl: "https://book.pep.com.cn/1211001101161/files/mobile/%d.jpg?%d",
+			Pages:    128,
+		},
+		{
+			QueryUrl: "https://book.pep.com.cn/1211001102161/files/mobile/%d.jpg?%d",
+			Pages:    128,
+		},
+	},
+	"小学-一年级-数学": {
+		{
+			QueryUrl: "https://book.pep.com.cn/1221001101121/files/mobile/%d.jpg?%d",
+			Pages:    120,
+		},
+		{
+			QueryUrl: "https://book.pep.com.cn/1221001102121/files/mobile/%d.jpg?%d",
+			Pages:    112,
+		},
+	},
+	"小学-一年级-英语": {
+		{
+			QueryUrl: "https://book.pep.com.cn/1212001101123/files/mobile/%d.jpg?%d",
+			Pages:    78,
+		},
+		{
+			QueryUrl: "https://book.pep.com.cn/1212001102123/files/mobile/%d.jpg?%d",
+			Pages:    78,
+		},
+	},
+	"小学-一年级-科学": {
+		{
+			QueryUrl: "https://book.pep.com.cn/1244001101171/files/mobile/%d.jpg?%d",
+			Pages:    52,
+		},
+		{
+			QueryUrl: "https://book.pep.com.cn/1244001102172/files/mobile/%d.jpg?%d",
+			Pages:    20,
+		},
+		{
+			QueryUrl: "https://book.pep.com.cn/1244001102171/files/mobile/%d.jpg?%d",
+			Pages:    52,
+		},
+	},
+	"小学-一年级-音乐": {
+		{
+			QueryUrl: "https://book.pep.com.cn/1262001101122/files/mobile/%d.jpg?%d",
+			Pages:    68,
+		},
+		{
+			QueryUrl: "https://book.pep.com.cn/1262001101121/files/mobile/%d.jpg?%d",
+			Pages:    68,
+		},
+		{
+			QueryUrl: "https://book.pep.com.cn/1262001102122/files/mobile/%d.jpg?%d",
+			Pages:    68,
+		},
+		{
+			QueryUrl: "https://book.pep.com.cn/1262001102121/files/mobile/%d.jpg?%d",
+			Pages:    68,
+		},
+	},
+	"小学-一年级-体育与健康": {
+		{
+			QueryUrl: "https://book.pep.com.cn/1272001103221/files/mobile/%d.jpg?%d",
+			Pages:    344,
+		},
+	},
+	"小学-一年级-美术": {
+		{
+			QueryUrl: "https://book.pep.com.cn/1263001101121/files/mobile/%d.jpg?%d",
+			Pages:    52,
+		},
+		{
+			QueryUrl: "https://book.pep.com.cn/1263001102121/files/mobile/%d.jpg?%d",
+			Pages:    52,
+		},
+	},
+
+	"初中-七年级-数学": {
+		{
+			QueryUrl: "https://book.pep.com.cn/1321001101121/files/mobile/%d.jpg?%d",
+			Pages:    162,
+			Remark:   "上册",
+		},
+	},
+}
