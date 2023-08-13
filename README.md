@@ -1,8 +1,8 @@
 
-# pepeb — 自动下载带书签(人民教育出版社)的电子书.
+# pep-ebook — 自动下载带书签(人民教育出版社)的电子书.
 
 
-![pepeb](doc/pepeb.png)
+![pep-ebook](doc/pep-ebook.png)
 
 ### 为什么写这个项目
   
@@ -26,7 +26,7 @@ go install github.com/maogou/pep-ebook@latest
 你可以使用下面的命令查看帮助:
 
 ```bash
-pepeb --help
+pep-ebook --help
 ```
 
 ### 如下命令可供你使用
@@ -34,8 +34,8 @@ pepeb --help
 你可以使用download下载,使用upgrade进行命令升级:
 
 ```bash
-pepeb download 
-pepeb upgrade
+pep-ebook download 
+pep-ebook upgrade
 ```
 
 ### TODO LIST
@@ -67,7 +67,7 @@ debug: true
 
 ## 许可证
 
-pepeb是根据MIT许可证发布的。有关更多信息，请参见[LICENSE](LICENSE.md)文件
+pep-ebook是根据MIT许可证发布的。有关更多信息，请参见[LICENSE](LICENSE.md)文件
 
 ## 免责申明
 

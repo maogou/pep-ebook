@@ -34,9 +34,9 @@ func initConfig() error {
 
 func NewPepEbAppCommand() *cli.App {
 	ebook := &cli.App{
-		Name:                  "pepeb",
+		Name:                  "pep-ebook",
 		Usage:                 "自动下载带书签(人民教育出版社)的电子书",
-		Version:               "v1.0.0",
+		Version:               constant.Version,
 		Copyright:             "(c) 2023 Wang Xingyuan",
 		Compiled:              time.Now(),
 		CustomAppHelpTemplate: constant.Logo + cli.AppHelpTemplate,
