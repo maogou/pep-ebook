@@ -3,6 +3,4 @@
 .exe
 ./tmp
 ./pdf
-*.pdf
 *.jpg
-*.png
