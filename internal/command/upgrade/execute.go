@@ -11,7 +11,7 @@ import (
 func (u *Upgrade) Execute(ctx *cli.Context) error {
 	u.PrintLog("Upgrade-Execute", "开始执行升级,当前版本为:", constant.Version)
 
-	arg := "GO111MODULE=" + constant.GO111MODULE + "GOPROXY=" + constant.GOPROXY + " go install " + constant.GithubRepo
+	arg := "GO111MODULE=" + constant.GO111MODULE + " GOPROXY=" + constant.GOPROXY + " go install " + constant.GithubRepo
 	execCmd := exec.Command("sh", "-c", arg)
 
 	if runtime.GOOS == constant.Windows {
@@ -21,7 +21,7 @@ func (u *Upgrade) Execute(ctx *cli.Context) error {
 	}
 
 	if err := execCmd.Run(); err != nil {
-		u.PrintLog("upgrade", "升级错误err=", err)
+		u.PrintLog("upgrade", "升级错误err=", err, "arg=", arg)
 		u.ZLog.Warn().Msg("😒😒😒升级失败,请检查是否可以正常访问github.com后重试!")
 		return err
 	}
