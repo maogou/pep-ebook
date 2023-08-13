@@ -1,16 +1,10 @@
-package main
+package cmd
 
 import (
-	"log"
-	"os"
-
 	"github.com/maogou/pep-ebook/internal"
+	"github.com/urfave/cli/v2"
 )
 
-func main() {
-	pepeb := internal.NewPepEbAppCommand()
-
-	if err := pepeb.Run(os.Args); err != nil {
-		log.Fatal(err)
-	}
+func CreatePepEb() *cli.App {
+	return internal.NewPepEbAppCommand()
 }

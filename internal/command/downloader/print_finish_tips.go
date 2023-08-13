@@ -14,7 +14,7 @@ func (p *PrintFinishTipsHandler) HandlerRequest(ctx *cli.Context, dl *Downloader
 
 	if p.IsCanHandler(ctx, dl) {
 		for _, value := range dl.success {
-			dl.ZLog.Info().Msg("🏆🏆🏆文件保存在:" + value)
+			dl.ZLog.Info().Msg("🏆🏆🏆未带书签文件保存在:" + value)
 		}
 
 		for filename := range dl.fail {

@@ -79,5 +79,5 @@ func (d *Download) HandlerRequest(ctx *cli.Context, dl *Downloader) {
 func (d *Download) IsCanHandler(ctx *cli.Context, dl *Downloader) bool {
 	dl.PrintLog("Download-IsCanHandler", "dl.err=", dl.err, "dl.image=", len(dl.images))
 
-	return dl.err != nil
+	return dl.err == nil
 }

@@ -2,6 +2,7 @@ package downloader
 
 import (
 	"os"
+	"strings"
 
 	"github.com/pdfcpu/pdfcpu/pkg/api"
 
@@ -25,7 +26,8 @@ func (a *AddBookmark) HandlerRequest(ctx *cli.Context, dl *Downloader) {
 			}
 
 			if bms, ok := bookmark.Bookmark[bookmarkKey]; ok {
-				if err := api.AddBookmarksFile(filename, "./数学_bookMark.pdf", bms, true, nil); err != nil {
+				outName := strings.ReplaceAll(filename, ".pdf", "_bookmark.pdf")
+				if err := api.AddBookmarksFile(filename, outName, bms, true, nil); err != nil {
 					dl.fail[bookmarkKey] = filename
 					dl.PrintLog("AddBookmark-HandlerRequest", "api.AddBookmarksFile添加书签失败err=", err)
 				}
