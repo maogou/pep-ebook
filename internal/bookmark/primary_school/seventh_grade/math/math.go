@@ -67,3 +67,78 @@ var Bms0 = []pdfcpu.Bookmark{
 	{PageFrom: 161, Title: "后记", Bold: true, Italic: true},
 	{PageFrom: 162, Title: "尾部封面", Bold: true, Italic: true},
 }
+
+var Bms1 = []pdfcpu.Bookmark{
+	{PageFrom: 1, Title: "封面"},
+	{PageFrom: 5, Title: "本册引导"},
+	{PageFrom: 6, Title: "目录"},
+	{PageFrom: 9, Title: "第五章: 相交线与平行线", Children: []pdfcpu.Bookmark{
+		{PageFrom: 10, Title: "5.1: 相交线", Children: []pdfcpu.Bookmark{
+			{PageFrom: 18, Title: "观察与猜想 看图时的错觉"},
+		}},
+		{PageFrom: 19, Title: "5.2: 平行线及其判定"},
+		{PageFrom: 26, Title: "5.3: 平行线的性质", Children: []pdfcpu.Bookmark{
+			{PageFrom: 34, Title: "信息技术应用 探索两条直线的位置关系"},
+		}},
+		{PageFrom: 36, Title: "5.4: 平移"},
+		{PageFrom: 40, Title: "数学活动5"},
+		{PageFrom: 42, Title: "小结5"},
+		{PageFrom: 43, Title: "复习题5"},
+	}},
+	{PageFrom: 47, Title: "第六章: 实数", Children: []pdfcpu.Bookmark{
+		{PageFrom: 48, Title: "6.1: 平方根"},
+		{PageFrom: 57, Title: "6.2: 立方根"},
+		{PageFrom: 61, Title: "6.3: 实数", Children: []pdfcpu.Bookmark{
+			{PageFrom: 66, Title: "阅读与思考 为什么说√2不是有理数"},
+		}},
+		{PageFrom: 67, Title: "数学活动6"},
+		{PageFrom: 68, Title: "小结6"},
+		{PageFrom: 69, Title: "复习题6"},
+	}},
+
+	{PageFrom: 71, Title: "第七章: 平面直角坐标系", Italic: true, Bold: true, Children: []pdfcpu.Bookmark{
+		{PageFrom: 72, Title: "7.1 平面直角坐标系", Children: []pdfcpu.Bookmark{
+			{PageFrom: 80, Title: "阅读与思考 用经纬度表示地理位置"},
+		}},
+		{PageFrom: 81, Title: "7.2 坐标方法的简单应用"},
+		{PageFrom: 89, Title: "数学活动7"},
+		{PageFrom: 91, Title: "小结7"},
+		{PageFrom: 92, Title: "复习题7"},
+	}},
+	{PageFrom: 95, Title: "第八章: 二元一次方程组", Bold: true, Italic: true, Children: []pdfcpu.Bookmark{
+		{PageFrom: 96, Title: "8.1 二元一次方程组"},
+		{PageFrom: 99, Title: "8.2 消元--解二元一次方程组"},
+		{PageFrom: 107, Title: "8.3 实际问题与解二元一次方程组"},
+		{PageFrom: 111, Title: "8.4 三元一次方程组的解法", Children: []pdfcpu.Bookmark{
+			{PageFrom: 115, Title: "阅读与思考 一次方程组的古今表示寄解法"},
+		}},
+		{PageFrom: 117, Title: "数学活动8"},
+		{PageFrom: 118, Title: "小结8"},
+		{PageFrom: 119, Title: "复习题8"},
+	}},
+	{PageFrom: 121, Title: "第九章: 不等式与不等式组", Bold: true, Italic: true, Children: []pdfcpu.Bookmark{
+		{PageFrom: 122, Title: "9.1 不等式", Children: []pdfcpu.Bookmark{
+			{PageFrom: 129, Title: "阅读与思考 用求查法比较大小"},
+		}},
+		{PageFrom: 130, Title: "9.2 一元一次不等式"},
+		{PageFrom: 135, Title: "9.3 一元一次不等式组"},
+		{PageFrom: 139, Title: "数学活动9"},
+		{PageFrom: 140, Title: "小结9"},
+		{PageFrom: 141, Title: "复习题9"},
+	}},
+	{PageFrom: 142, Title: "第十章: 数据的收集,整理与描述", Bold: true, Italic: true, Children: []pdfcpu.Bookmark{
+		{PageFrom: 143, Title: "10.1 统计调查", Children: []pdfcpu.Bookmark{
+			{PageFrom: 152, Title: "实验与探究 瓶子中有多少粒豆子"},
+		}},
+		{PageFrom: 153, Title: "10.2 直方图", Children: []pdfcpu.Bookmark{
+			{PageFrom: 159, Title: "信息技术应用 利用计算机画统计图"},
+		}},
+		{PageFrom: 161, Title: "10.3 课题学习 从数据谈节水"},
+		{PageFrom: 164, Title: "数学活动10"},
+		{PageFrom: 165, Title: "小结10"},
+		{PageFrom: 166, Title: "复习题10"},
+	}},
+	{PageFrom: 170, Title: "部分中英文词汇索引", Bold: true, Italic: true},
+	{PageFrom: 173, Title: "后记", Bold: true, Italic: true},
+	{PageFrom: 176, Title: "尾部封面", Bold: true, Italic: true},
+}
