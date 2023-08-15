@@ -1,8 +1,8 @@
-package math
+package math_seventh
 
 import "github.com/pdfcpu/pdfcpu/pkg/pdfcpu"
 
-var Bms0 = []pdfcpu.Bookmark{
+var Bms7_0 = []pdfcpu.Bookmark{
 	{PageFrom: 1, Title: "封面"},
 	{PageFrom: 5, Title: "主编的话"},
 	{PageFrom: 7, Title: "目录"},
@@ -68,7 +68,7 @@ var Bms0 = []pdfcpu.Bookmark{
 	{PageFrom: 162, Title: "尾部封面", Bold: true, Italic: true},
 }
 
-var Bms1 = []pdfcpu.Bookmark{
+var Bms7_1 = []pdfcpu.Bookmark{
 	{PageFrom: 1, Title: "封面"},
 	{PageFrom: 5, Title: "本册引导"},
 	{PageFrom: 6, Title: "目录"},

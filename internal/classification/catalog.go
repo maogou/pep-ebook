@@ -120,4 +120,11 @@ var Paths = map[string][]UrlPath{
 			Remark:   "下册",
 		},
 	},
+	"初中-八年级-数学": {
+		{
+			QueryUrl: "https://book.pep.com.cn/1321001201131/files/mobile/%d.jpg?%d",
+			Pages:    170,
+			Remark:   "上册",
+		},
+	},
 }
