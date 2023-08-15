@@ -3,7 +3,7 @@
 
 
 ![pep-ebook](doc/pep-ebook.png)
-![pep-cli](doc/test.png)
+![pep-cli](doc/qi.png)
 
 ### 为什么写这个项目
   
