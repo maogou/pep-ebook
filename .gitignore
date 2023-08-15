@@ -1,6 +1,6 @@
 .idea/*
 .vscode/*
 .exe
-./tmp
-./pdf
+tmp/*
+pdf/*
 *.jpg

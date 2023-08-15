@@ -1,11 +1,10 @@
 package downloader
 
 import (
-	"os"
-	"sort"
-	"time"
-
+	"github.com/spf13/cast"
 	"github.com/urfave/cli/v2"
+	"sort"
+	"strings"
 )
 
 type SortImage struct {
@@ -13,8 +12,8 @@ type SortImage struct {
 }
 
 type fileInfo struct {
-	Name    string    // 文件名
-	ModTime time.Time // 文件修改时间
+	Name string // 文件名
+	Page int    //页数
 }
 
 var _ Chain = (*SortImage)(nil)
@@ -29,23 +28,20 @@ func (s *SortImage) HandlerRequest(ctx *cli.Context, dl *Downloader) {
 
 			var sortImage []fileInfo
 			for _, image := range images {
-				var tmp fileInfo
-				tmp.Name = image
-
-				if info, err := os.Stat(image); err != nil {
-					dl.err = err
-					break
-				} else {
-					tmp.ModTime = info.ModTime()
+				if len(image) < 2 {
+					continue
 				}
+				rImage := strings.ReplaceAll(image, "\\", "/")
+				imageSlice := strings.Split(rImage, "/")
+				page := strings.Split(imageSlice[len(imageSlice)-1], ".")[0]
 
-				sortImage = append(sortImage, tmp)
+				sortImage = append(sortImage, fileInfo{Name: image, Page: cast.ToInt(page)})
 			}
 
 			if len(sortImage) > 0 {
 				sort.Slice(
 					sortImage, func(i, j int) bool {
-						return sortImage[i].ModTime.Before(sortImage[j].ModTime)
+						return sortImage[i].Page < sortImage[j].Page
 					},
 				)
 
