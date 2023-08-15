@@ -109,11 +109,11 @@ var Paths = map[string][]UrlPath{
 	},
 
 	"初中-七年级-数学": {
-		//{
-		//	QueryUrl: "https://book.pep.com.cn/1321001101121/files/mobile/%d.jpg?%d",
-		//	Pages:    162,
-		//	Remark:   "上册",
-		//},
+		{
+			QueryUrl: "https://book.pep.com.cn/1321001101121/files/mobile/%d.jpg?%d",
+			Pages:    162,
+			Remark:   "上册",
+		},
 		{
 			QueryUrl: "https://book.pep.com.cn/1321001102121/files/mobile/%d.jpg?%d",
 			Pages:    176,
