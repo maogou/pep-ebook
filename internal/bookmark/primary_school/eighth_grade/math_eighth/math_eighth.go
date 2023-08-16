@@ -69,3 +69,65 @@ var Bms8_0 = []pdfcpu.Bookmark{
 	{PageFrom: 169, Title: "后记", Bold: true, Italic: true},
 	{PageFrom: 170, Title: "尾部封面", Bold: true, Italic: true},
 }
+
+var Bms8_1 = []pdfcpu.Bookmark{
+	{PageFrom: 1, Title: "封面"},
+	{PageFrom: 5, Title: "本册引导"},
+	{PageFrom: 6, Title: "目录"},
+	{PageFrom: 9, Title: "第十六章: 二次根式", Children: []pdfcpu.Bookmark{
+		{PageFrom: 10, Title: "16.1: 二次根式"},
+		{PageFrom: 14, Title: "16.1: 二次根式的乘除"},
+		{PageFrom: 20, Title: "16.2: 二次根式的加减", Children: []pdfcpu.Bookmark{
+			{PageFrom: 24, Title: "阅读与思考 海伦-秦九韶公式"},
+		}},
+		{PageFrom: 25, Title: "数学活动21"},
+		{PageFrom: 26, Title: "小结21"},
+		{PageFrom: 27, Title: "复习题21"},
+	}},
+	{PageFrom: 29, Title: "第十七章: 勾股定律", Children: []pdfcpu.Bookmark{
+		{PageFrom: 30, Title: "17.1: 勾股定律", Children: []pdfcpu.Bookmark{
+			{PageFrom: 38, Title: "阅读与思考 勾股定理的证明"},
+		}},
+		{PageFrom: 39, Title: "17.2: 勾股定律的逆定理", Children: []pdfcpu.Bookmark{
+			{PageFrom: 43, Title: "阅读与思考 费马大定理"},
+		}},
+		{PageFrom: 44, Title: "数学活动17"},
+		{PageFrom: 45, Title: "小结17"},
+		{PageFrom: 46, Title: "复习题17"},
+	}},
+	{PageFrom: 48, Title: "第十八章: 平行四边形", Children: []pdfcpu.Bookmark{
+		{PageFrom: 49, Title: "18.1 平行四边形"},
+		{PageFrom: 60, Title: "18.2: 特殊平行四边形", Children: []pdfcpu.Bookmark{
+			{PageFrom: 71, Title: "实验与探究 丰富多彩的正方形"},
+		}},
+		{PageFrom: 72, Title: "数学活动18"},
+		{PageFrom: 73, Title: "小结18"},
+		{PageFrom: 74, Title: "复习题18"},
+	}},
+
+	{PageFrom: 78, Title: "第十九章: 一次函数", Children: []pdfcpu.Bookmark{
+		{PageFrom: 79, Title: "19.1: 函数", Children: []pdfcpu.Bookmark{
+			{PageFrom: 93, Title: "阅读与思考 科学家如何测算岩石的年龄"},
+		}},
+		{PageFrom: 94, Title: "19.2: 一次次函数", Children: []pdfcpu.Bookmark{
+			{PageFrom: 109, Title: "信息技术应用 用计算机画函数图像"},
+		}},
+		{PageFrom: 110, Title: "课题学习 选择方案"},
+		{PageFrom: 113, Title: "数学活动19"},
+		{PageFrom: 114, Title: "小结19"},
+		{PageFrom: 115, Title: "复习题19"},
+	}},
+	{PageFrom: 118, Title: "第二十章: 数据的分析", Children: []pdfcpu.Bookmark{
+		{PageFrom: 119, Title: "20.1: 数据的集中趋势"},
+		{PageFrom: 132, Title: "20.2: 数据的波动程度", Children: []pdfcpu.Bookmark{
+			{PageFrom: 137, Title: "阅读与思考 数据波动程度的几种度量"},
+		}},
+		{PageFrom: 139, Title: "课题学习 体质健康测试中的数据分析"},
+		{PageFrom: 142, Title: "数学活动20"},
+		{PageFrom: 143, Title: "小结20"},
+		{PageFrom: 144, Title: "复习题20"},
+	}},
+	{PageFrom: 146, Title: "部分中英文词汇索引", Bold: true, Italic: true},
+	{PageFrom: 147, Title: "后记", Bold: true, Italic: true},
+	{PageFrom: 148, Title: "尾部封面", Bold: true, Italic: true},
+}

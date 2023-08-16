@@ -35,6 +35,8 @@ func (c *CreatePdf) HandlerRequest(ctx *cli.Context, dl *Downloader) {
 					break
 				}
 
+				_ = os.Remove(name)
+
 				if err = api.ImportImagesFile(names, name, imp, nil); err != nil {
 					dl.PrintLog(`api.ImportImagesFile(names, name, imp, nil)`, "发生错误err=", err)
 					dl.err = err

@@ -126,5 +126,17 @@ var Paths = map[string][]UrlPath{
 			Pages:    170,
 			Remark:   "上册",
 		},
+		{
+			QueryUrl: "https://book.pep.com.cn/1321001202131/files/mobile/%d.jpg?%d",
+			Pages:    148,
+			Remark:   "下册",
+		},
+	},
+	"初中-九年级-数学": {
+		{
+			QueryUrl: "https://book.pep.com.cn/1321001301141/files/mobile/%d.jpg?%d",
+			Pages:    164,
+			Remark:   "上册",
+		},
 	},
 }

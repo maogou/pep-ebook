@@ -2,6 +2,7 @@ package bookmark
 
 import (
 	"github.com/maogou/pep-ebook/internal/bookmark/primary_school/eighth_grade/math_eighth"
+	"github.com/maogou/pep-ebook/internal/bookmark/primary_school/ninth_grade/math_ninth"
 	"github.com/maogou/pep-ebook/internal/bookmark/primary_school/seventh_grade/math_seventh"
 	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu"
 )
@@ -11,4 +12,6 @@ var Bookmark = map[string][]pdfcpu.Bookmark{
 	"初中/七年级/数学/上册": math_seventh.Bms7_0,
 	"初中/七年级/数学/下册": math_seventh.Bms7_1,
 	"初中/八年级/数学/上册": math_eighth.Bms8_0,
+	"初中/八年级/数学/下册": math_eighth.Bms8_1,
+	"初中/九年级/数学/上册": math_ninth.Math9_0,
 }
