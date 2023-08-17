@@ -138,5 +138,10 @@ var Paths = map[string][]UrlPath{
 			Pages:    164,
 			Remark:   "上册",
 		},
+		{
+			QueryUrl: "https://book.pep.com.cn/1321001302141/files/mobile/%d.jpg?%d",
+			Pages:    124,
+			Remark:   "下册",
+		},
 	},
 }

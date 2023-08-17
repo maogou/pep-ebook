@@ -14,4 +14,5 @@ var Bookmark = map[string][]pdfcpu.Bookmark{
 	"初中/八年级/数学/上册": math_eighth.Bms8_0,
 	"初中/八年级/数学/下册": math_eighth.Bms8_1,
 	"初中/九年级/数学/上册": math_ninth.Math9_0,
+	"初中/九年级/数学/下册": math_ninth.Math9_1,
 }
