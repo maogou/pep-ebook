@@ -60,4 +60,7 @@ var (
 			"美术",
 		},
 	}
+	HighMustOrNot = map[string][]string{
+		"数学-必修": []string{"第一册", "第二册", "第三册", "第四册"},
+	}
 )

@@ -144,4 +144,11 @@ var Paths = map[string][]UrlPath{
 			Remark:   "下册",
 		},
 	},
+	"高中-必修-数学-第一册": {
+		{
+			QueryUrl: "https://book.pep.com.cn/1421001121201/files/mobile/%d.jpg?%d",
+			Pages:    152,
+			Remark:   "B版",
+		},
+	},
 }

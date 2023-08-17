@@ -20,7 +20,7 @@ var _ Chain = (*Download)(nil)
 func (d *Download) HandlerRequest(ctx *cli.Context, dl *Downloader) {
 	dl.PrintLog("Download-HandlerRequest", "开始执行")
 	if d.IsCanHandler(ctx, dl) {
-
+		dl.ZLog.Info().Msg("🚨🚨🚨正在生成中请稍等.....🚨🚨🚨")
 		for _, item := range dl.paths {
 			var images []string
 			path := dl.imagesTmpDir + dl.pathKey + "/" + item.Remark + "/"

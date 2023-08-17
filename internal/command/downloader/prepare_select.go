@@ -44,14 +44,33 @@ func (d *Downloader) prepareSelect() error {
 		return errors.New("你中断了选择学科")
 	}
 
+	mustOrNotSelect := ""
+	if period == "高中" {
+		//          数学            必修
+		highKey := subject + "-" + grade
+
+		prompt = &survey.Select{
+			Message: "请选择必修项:",
+			Options: classification.HighMustOrNot[highKey],
+		}
+
+		if err := survey.AskOne(prompt, &mustOrNotSelect); err != nil {
+			return errors.New("你中断了选择必修项")
+		}
+	}
+
 	key := period + "-" + grade + "-" + subject
 
+	if mustOrNotSelect != "" {
+		key = period + "-" + grade + "-" + subject + "-" + mustOrNotSelect
+	}
+
 	if _, ok := classification.Paths[key]; !ok {
-		return errors.New("你选择的学段+年级+学科不存在,请重新选择")
+		return errors.New("你选择的学段+年级+学科不存在(维护人员正在努力更新中....),请重新选择")
 	}
 
 	if len(classification.Paths[key]) == 0 {
-		return errors.New("你选择的学段+年级+学科不存在,请重新选择")
+		return errors.New("你选择的学段+年级+学科不存在(维护人员正在努力更新中....),请重新选择")
 	}
 
 	d.period = period
