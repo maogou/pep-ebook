@@ -139,3 +139,67 @@ var MathCompulsoryFirstA = []pdfcpu.Bookmark{
 	{PageFrom: 268, Title: "后记", Bold: true, Italic: true},
 	{PageFrom: 270, Title: "尾部封面", Bold: true, Italic: true},
 }
+
+var MathCompulsorySecondB = []pdfcpu.Bookmark{
+	{PageFrom: 1, Title: "封面"},
+	{PageFrom: 5, Title: "前言"},
+	{PageFrom: 7, Title: "目录"},
+	{PageFrom: 9, Title: "第四章: 指数函数,对数函数与幂函数", Children: []pdfcpu.Bookmark{
+		{PageFrom: 10, Title: "本章导语"},
+		{PageFrom: 11, Title: "4.1: 指数与指数函数", Children: []pdfcpu.Bookmark{
+			{PageFrom: 11, Title: "4.1.1 实数指数幂及其运算"},
+			{PageFrom: 17, Title: "4.1.2 指数函数的性质与图像"},
+		}},
+		{PageFrom: 23, Title: "4.2: 对数与对数函数", Children: []pdfcpu.Bookmark{
+			{PageFrom: 23, Title: "4.2.1 对数运算"},
+			{PageFrom: 28, Title: "4.2.2 对数运算法则"},
+			{PageFrom: 32, Title: "4.2.3 对数函数的性质与图像"},
+		}},
+		{PageFrom: 39, Title: "4.3 指数函数与对数函数的关系"},
+		{PageFrom: 42, Title: "4.4 幂函数"},
+		{PageFrom: 47, Title: "4.5 增长速度的比较"},
+		{PageFrom: 51, Title: "4.6 函数的应用(二)"},
+		{PageFrom: 55, Title: "4.7 数学建模活动: 生长规律的描述"},
+		{PageFrom: 59, Title: "本章小结1"},
+	}},
+	{PageFrom: 63, Title: "第五章: 统计与概率", Children: []pdfcpu.Bookmark{
+		{PageFrom: 64, Title: "本章导语"},
+		{PageFrom: 65, Title: "5.1: 统计", Children: []pdfcpu.Bookmark{
+			{PageFrom: 65, Title: "5.1.1 数据的收集"},
+			{PageFrom: 71, Title: "5.1.2 数据的数字特征"},
+			{PageFrom: 79, Title: "5.1.3 数据的直观表示"},
+			{PageFrom: 88, Title: "5.1.4 用样本估计总体"},
+		}},
+		{PageFrom: 101, Title: "5.2 数学探究活动: 有编号样本估计总数及其模拟"},
+
+		{PageFrom: 104, Title: "5.3: 概率", Children: []pdfcpu.Bookmark{
+			{PageFrom: 104, Title: "5.3.1 样本空间与事件"},
+			{PageFrom: 109, Title: "5.3.2 事件之间的关系与运算"},
+			{PageFrom: 114, Title: "5.3.3 古典概型"},
+			{PageFrom: 120, Title: "5.3.4 频率与概率"},
+			{PageFrom: 126, Title: "5.3.5 随机事件的独立性"},
+		}},
+		{PageFrom: 131, Title: "5.4 统计与概率的应用"},
+		{PageFrom: 138, Title: "本章小结2"},
+	}},
+	{PageFrom: 143, Title: "第六章: 平面向量初步", Children: []pdfcpu.Bookmark{
+		{PageFrom: 144, Title: "本章导语"},
+
+		{PageFrom: 145, Title: "6.1: 平面向量及其线性运算", Children: []pdfcpu.Bookmark{
+			{PageFrom: 145, Title: "6.1.1 向量的概念"},
+			{PageFrom: 149, Title: "6.1.2 向量的加法"},
+			{PageFrom: 154, Title: "6.1.3 向量的减法"},
+			{PageFrom: 157, Title: "6.1.4 数乘向量"},
+			{PageFrom: 160, Title: "6.1.5 向量的线性运算"},
+		}},
+		{PageFrom: 165, Title: "6.2: 向量基本定理与向量的坐标", Children: []pdfcpu.Bookmark{
+			{PageFrom: 165, Title: "6.2.1 向量的基本定理"},
+			{PageFrom: 170, Title: "6.2.2 直线上向量的坐标及其运算"},
+			{PageFrom: 174, Title: "6.2.3 平面向量的坐标及其运算"},
+		}},
+		{PageFrom: 182, Title: "6.3 平面向量线性运算的应用"},
+		{PageFrom: 186, Title: "本章小结3"},
+	}},
+	{PageFrom: 189, Title: "后记", Bold: true, Italic: true},
+	{PageFrom: 192, Title: "尾部封面", Bold: true, Italic: true},
+}

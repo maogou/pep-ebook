@@ -18,4 +18,5 @@ var Bookmark = map[string][]pdfcpu.Bookmark{
 	"初中/九年级/数学/下册":    math_ninth.Math9_1,
 	"高中/必修/数学/第一册/B版": math_compulsory.MathCompulsoryFirstB,
 	"高中/必修/数学/第一册/A版": math_compulsory.MathCompulsoryFirstA,
+	"高中/必修/数学/第二册/B版": math_compulsory.MathCompulsorySecondB,
 }
