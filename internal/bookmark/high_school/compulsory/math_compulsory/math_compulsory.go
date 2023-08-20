@@ -203,3 +203,76 @@ var MathCompulsorySecondB = []pdfcpu.Bookmark{
 	{PageFrom: 189, Title: "后记", Bold: true, Italic: true},
 	{PageFrom: 192, Title: "尾部封面", Bold: true, Italic: true},
 }
+
+var MathCompulsorySecondA = []pdfcpu.Bookmark{
+	{PageFrom: 1, Title: "封面"},
+	{PageFrom: 5, Title: "本册引导"},
+	{PageFrom: 7, Title: "目录"},
+	{PageFrom: 9, Title: "第六章: 平面向量及其应用", Children: []pdfcpu.Bookmark{
+		{PageFrom: 10, Title: "6.1 平面向量的概念", Children: []pdfcpu.Bookmark{
+			{PageFrom: 14, Title: "思考与阅读 向量及向量符号的由来"},
+		}},
+		{PageFrom: 15, Title: "6.2 平面向量的运算"},
+		{PageFrom: 33, Title: "6.3: 向量基本定理与向量的坐标"},
+		{PageFrom: 46, Title: "6.4 平面向量的应用", Children: []pdfcpu.Bookmark{
+			{PageFrom: 63, Title: "阅读与思考 海伦和秦九昭"},
+		}},
+		{PageFrom: 65, Title: "本章小结6"},
+		{PageFrom: 67, Title: "复习参考题6"},
+	}},
+	{PageFrom: 71, Title: "数学探究 用向量发研究三角形的性质"},
+
+	{PageFrom: 75, Title: "第七章: 复数", Children: []pdfcpu.Bookmark{
+		{PageFrom: 76, Title: "7.1 复数的概念"},
+		{PageFrom: 83, Title: "7.2: 复数的四则运算", Children: []pdfcpu.Bookmark{
+			{PageFrom: 89, Title: "阅读与思考 代数基本定理"},
+		}},
+		{PageFrom: 91, Title: "7.3: 复数的三角表示", Children: []pdfcpu.Bookmark{
+			{PageFrom: 99, Title: "探究与发现 1的n次方根"},
+		}},
+		{PageFrom: 101, Title: "小结7"},
+		{PageFrom: 102, Title: "复习参考题7"},
+	}},
+	{PageFrom: 104, Title: "第八章: 立体几何初步", Children: []pdfcpu.Bookmark{
+		{PageFrom: 105, Title: "8.1 基本立体图形"},
+		{PageFrom: 115, Title: "8.2 立体图形的直观图", Children: []pdfcpu.Bookmark{
+			{PageFrom: 120, Title: "阅读与思考 画法几何与蒙日"},
+		}},
+		{PageFrom: 122, Title: "8.3: 简单几何体的表面积与体积", Children: []pdfcpu.Bookmark{
+			{PageFrom: 129, Title: "探究与发现 祖暅原理与柱体,椎体的体积"},
+		}},
+		{PageFrom: 132, Title: "8.4 空间点,直线,平面之间的位置关系"},
+		{PageFrom: 141, Title: "8.5 平面直线,平面的平行"},
+		{PageFrom: 154, Title: "8.6 平面直线,平面的垂直", Children: []pdfcpu.Bookmark{
+			{PageFrom: 173, Title: "阅读与思考 欧几里得<<原本>>与公理化方法"},
+		}},
+		{PageFrom: 174, Title: "文献阅读与数学写作 几何学的发展"},
+		{PageFrom: 175, Title: "本章小结8"},
+		{PageFrom: 177, Title: "复习参考题8"},
+	}},
+	{PageFrom: 180, Title: "第九章: 统计", Children: []pdfcpu.Bookmark{
+		{PageFrom: 181, Title: "9.1: 随机抽样", Children: []pdfcpu.Bookmark{
+			{PageFrom: 193, Title: "阅读与思考如何得到敏感性问题的诚实反应"},
+			{PageFrom: 198, Title: "信息技术应用 统计软件的应用"},
+		}},
+		{PageFrom: 201, Title: "9.2: 用样本估计总体", Children: []pdfcpu.Bookmark{
+			{PageFrom: 218, Title: "阅读与思考 统计学在军事中的应用 二战时德国坦克总量的估计问题"},
+			{PageFrom: 226, Title: "阅读与思考 大数据"},
+		}},
+		{PageFrom: 228, Title: "9.3 统计案列 公司员工股的肥胖情况调查分析"},
+		{PageFrom: 230, Title: "本章小结9"},
+		{PageFrom: 232, Title: "复习参考题9"},
+	}},
+	{PageFrom: 235, Title: "第十章: 概率", Children: []pdfcpu.Bookmark{
+		{PageFrom: 236, Title: "10.1 随机事件与概率"},
+		{PageFrom: 257, Title: "10.2 事件的相互独立性"},
+		{PageFrom: 262, Title: "10.3: 频率与概率", Children: []pdfcpu.Bookmark{
+			{PageFrom: 270, Title: "阅读与思考 孟德尔遗传规律"},
+		}},
+		{PageFrom: 272, Title: "本章小结10"},
+		{PageFrom: 274, Title: "复习参考题10"},
+	}},
+	{PageFrom: 277, Title: "部分中英文词汇索引", Bold: true, Italic: true},
+	{PageFrom: 279, Title: "后记", Bold: true, Italic: true},
+	{PageFrom: 280, Title: "尾部封面", Bold: true, Italic: true},
+}
