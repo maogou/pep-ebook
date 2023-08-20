@@ -276,3 +276,54 @@ var MathCompulsorySecondA = []pdfcpu.Bookmark{
 	{PageFrom: 279, Title: "后记", Bold: true, Italic: true},
 	{PageFrom: 280, Title: "尾部封面", Bold: true, Italic: true},
 }
+
+var MathCompulsoryThird = []pdfcpu.Bookmark{
+	{PageFrom: 1, Title: "封面"},
+	{PageFrom: 5, Title: "前言"},
+	{PageFrom: 7, Title: "目录"},
+
+	{PageFrom: 9, Title: "第七章: 三角函数", Children: []pdfcpu.Bookmark{
+		{PageFrom: 10, Title: "本章导语"},
+		{PageFrom: 11, Title: "7.1 任意小的概念与弧度制", Children: []pdfcpu.Bookmark{
+			{PageFrom: 11, Title: "7.1.1 角的推广"},
+			{PageFrom: 16, Title: "7.1.1 弧度制及其与角度制的换算"},
+		}},
+		{PageFrom: 22, Title: "7.2 任意角的三角函数", Children: []pdfcpu.Bookmark{
+			{PageFrom: 22, Title: "7.2.1 三角函数的定义"},
+			{PageFrom: 26, Title: "7.2.2 单位圆与三角函数线"},
+			{PageFrom: 30, Title: "7.2.3 同角三角函数的基本关系"},
+			{PageFrom: 35, Title: "7.2.4 诱导公式"},
+		}},
+		{PageFrom: 45, Title: "7.3 三角函数的性质与图像", Children: []pdfcpu.Bookmark{
+			{PageFrom: 45, Title: "7.3.1 正弦函数的性质与图像"},
+			{PageFrom: 52, Title: "7.3.2 正弦型函数的性质与图像"},
+			{PageFrom: 60, Title: "7.3.3 余弦函数的性质与图像"},
+			{PageFrom: 64, Title: "7.3.4 余弦函数型的性质与图像"},
+			{PageFrom: 68, Title: "7.3.5 已知三角函数求角"},
+		}},
+		{PageFrom: 75, Title: "7.4 数学建模活动: 周期现象的描述"},
+		{PageFrom: 77, Title: "本章小结7"},
+		{PageFrom: 77, Title: "复习题7"},
+	}},
+	{PageFrom: 81, Title: "第八章: 向量的数量积与三角恒等变换", Children: []pdfcpu.Bookmark{
+		{PageFrom: 82, Title: "本章导语"},
+
+		{PageFrom: 83, Title: "8.1 立体图形的直观图", Children: []pdfcpu.Bookmark{
+			{PageFrom: 83, Title: "8.1.1 向量数量积的概念"},
+			{PageFrom: 88, Title: "8.1.2 向量数量积的运算"},
+			{PageFrom: 93, Title: "8.1.3 向量数量积的坐标运算"},
+		}},
+		{PageFrom: 99, Title: "8.2 三角恒等变换", Children: []pdfcpu.Bookmark{
+			{PageFrom: 99, Title: "8.2.1 两角和与差的余弦"},
+			{PageFrom: 102, Title: "8.2.2 两角和与差的正弦,正切"},
+			{PageFrom: 108, Title: "8.2.3 倍角公式"},
+			{PageFrom: 111, Title: "8.2.4 三角恒等变换的应用"},
+		}},
+
+		{PageFrom: 119, Title: "本章小结8"},
+		{PageFrom: 120, Title: "复习题8"},
+	}},
+
+	{PageFrom: 123, Title: "后记"},
+	{PageFrom: 126, Title: "尾部封面"},
+}

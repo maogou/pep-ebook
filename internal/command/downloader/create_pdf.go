@@ -27,7 +27,6 @@ func (c *CreatePdf) HandlerRequest(ctx *cli.Context, dl *Downloader) {
 				savePath := dl.pdfDir + dl.pathKey
 				name := savePath + "/" + index + ".pdf"
 				bookmarkKey := dl.pathKey + "/" + index
-				dl.PrintLog("name", name)
 				if err = os.MkdirAll(savePath, 0777); err != nil {
 					dl.PrintLog(`CreatePdf-HandlerRequest-os.MkdirAll`, "发生错误err=", err)
 

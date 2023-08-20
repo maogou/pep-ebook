@@ -68,7 +68,11 @@ func (d *Download) HandlerRequest(ctx *cli.Context, dl *Downloader) {
 			}
 
 			if len(images) > 0 {
-				dl.images[item.Remark] = images
+				if len(item.Remark) == 0 {
+					dl.images[dl.subject] = images
+				} else {
+					dl.images[item.Remark] = images
+				}
 			}
 		}
 	}

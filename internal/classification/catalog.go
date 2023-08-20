@@ -168,4 +168,11 @@ var Paths = map[string][]UrlPath{
 			Remark:   "A版",
 		},
 	},
+	"高中-必修-数学-第三册": {
+		{
+			QueryUrl: "https://book.pep.com.cn/1421001123201/files/mobile/%d.jpg?%d",
+			Pages:    126,
+			Remark:   "数学",
+		},
+	},
 }
