@@ -277,7 +277,7 @@ var MathCompulsorySecondA = []pdfcpu.Bookmark{
 	{PageFrom: 280, Title: "尾部封面", Bold: true, Italic: true},
 }
 
-var MathCompulsoryThird = []pdfcpu.Bookmark{
+var MathCompulsoryThirdB = []pdfcpu.Bookmark{
 	{PageFrom: 1, Title: "封面"},
 	{PageFrom: 5, Title: "前言"},
 	{PageFrom: 7, Title: "目录"},
@@ -326,4 +326,64 @@ var MathCompulsoryThird = []pdfcpu.Bookmark{
 
 	{PageFrom: 123, Title: "后记"},
 	{PageFrom: 126, Title: "尾部封面"},
+}
+
+var MathCompulsoryFourB = []pdfcpu.Bookmark{
+	{PageFrom: 1, Title: "封面"},
+	{PageFrom: 5, Title: "前言"},
+	{PageFrom: 7, Title: "目录"},
+
+	{PageFrom: 9, Title: "第九章: 解三角形", Children: []pdfcpu.Bookmark{
+		{PageFrom: 10, Title: "本章导语"},
+		{PageFrom: 11, Title: "9.1 正弦定理与余弦定理", Children: []pdfcpu.Bookmark{
+			{PageFrom: 11, Title: "9.1.1 正弦定理"},
+			{PageFrom: 16, Title: "9.1.2 余弦定理"},
+		}},
+		{PageFrom: 21, Title: "9.2 正弦定理与余弦定理的性质"},
+		{PageFrom: 25, Title: "9.3 数学探究活动: 得到不可达两点之间的距离"},
+		{PageFrom: 27, Title: "本章小结9"},
+	}},
+	{PageFrom: 31, Title: "第十章: 复数", Children: []pdfcpu.Bookmark{
+		{PageFrom: 32, Title: "本章导语"},
+
+		{PageFrom: 33, Title: "10.1 复数及其几何意义", Children: []pdfcpu.Bookmark{
+			{PageFrom: 33, Title: "10.1.1 复数的概念"},
+			{PageFrom: 37, Title: "10.1.2 复数的几何意义"},
+		}},
+		{PageFrom: 41, Title: "10.2 复数的运算", Children: []pdfcpu.Bookmark{
+			{PageFrom: 41, Title: "10.2.1 复数的加法与减法"},
+			{PageFrom: 44, Title: "10.2.2 复数的乘法与除法"},
+		}},
+
+		{PageFrom: 51, Title: "10.3 复数的三角形式及其运算"},
+		{PageFrom: 58, Title: "本章小结10"},
+	}},
+	{PageFrom: 61, Title: "第十一章: 立体几何初步", Children: []pdfcpu.Bookmark{
+		{PageFrom: 62, Title: "本章导语"},
+
+		{PageFrom: 63, Title: "11.1 空间几何体", Children: []pdfcpu.Bookmark{
+			{PageFrom: 63, Title: "11.1.1 空间几何体与斜二测画法"},
+			{PageFrom: 68, Title: "11.1.2 构成空间几何体的基本元素"},
+			{PageFrom: 74, Title: "11.1.3 多面体与棱柱"},
+			{PageFrom: 80, Title: "11.1.4 棱锥与棱台"},
+			{PageFrom: 85, Title: "11.1.5 旋转体"},
+			{PageFrom: 91, Title: "11.1.6 祖暅原理与几何体的体积"},
+		}},
+		{PageFrom: 100, Title: "11.2 平面的基本事实与推论"},
+
+		{PageFrom: 105, Title: "11.3 空间中的平行关系", Children: []pdfcpu.Bookmark{
+			{PageFrom: 105, Title: "11.3.1 平行直线的与异面直线"},
+			{PageFrom: 109, Title: "11.3.2 直线与平面平行"},
+			{PageFrom: 113, Title: "11.3.3 平面与平面平行"},
+		}},
+		{PageFrom: 120, Title: "11.4 空间中的垂直关系", Children: []pdfcpu.Bookmark{
+			{PageFrom: 120, Title: "11.4.1 直线与平面垂直"},
+			{PageFrom: 126, Title: "11.4.2 平面与平面垂直"},
+		}},
+
+		{PageFrom: 134, Title: "本章小结11"},
+		{PageFrom: 135, Title: "复习题11"},
+	}},
+	{PageFrom: 140, Title: "后记"},
+	{PageFrom: 142, Title: "尾部封面"},
 }

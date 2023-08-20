@@ -172,7 +172,14 @@ var Paths = map[string][]UrlPath{
 		{
 			QueryUrl: "https://book.pep.com.cn/1421001123201/files/mobile/%d.jpg?%d",
 			Pages:    126,
-			Remark:   "数学",
+			Remark:   "B版",
+		},
+	},
+	"高中-必修-数学-第四册": {
+		{
+			QueryUrl: "https://book.pep.com.cn/1421001137201/files/mobile/%d.jpg?%d",
+			Pages:    142,
+			Remark:   "B版",
 		},
 	},
 }
