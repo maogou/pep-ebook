@@ -156,6 +156,13 @@ var Paths = map[string][]UrlPath{
 			Remark:   "A版",
 		},
 	},
+	"高中-选择性必修-数学-第一册": {
+		{
+			QueryUrl: "https://book.pep.com.cn/1421001127202/files/mobile/%d.jpg?%d",
+			Pages:    192,
+			Remark:   "B版",
+		},
+	},
 	"高中-必修-数学-第二册": {
 		{
 			QueryUrl: "https://book.pep.com.cn/1421001122201/files/mobile/%d.jpg?%d",

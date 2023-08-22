@@ -2,6 +2,7 @@ package bookmark
 
 import (
 	"github.com/maogou/pep-ebook/internal/bookmark/high_school/compulsory/math_compulsory"
+	"github.com/maogou/pep-ebook/internal/bookmark/high_school/selective_compulsory/math_selective_compulsory"
 	"github.com/maogou/pep-ebook/internal/bookmark/middle_school/eighth_grade/math_eighth"
 	"github.com/maogou/pep-ebook/internal/bookmark/middle_school/ninth_grade/math_ninth"
 	"github.com/maogou/pep-ebook/internal/bookmark/middle_school/seventh_grade/math_seventh"
@@ -22,4 +23,6 @@ var Bookmark = map[string][]pdfcpu.Bookmark{
 	"高中/必修/数学/第二册/A版": math_compulsory.MathCompulsorySecondA,
 	"高中/必修/数学/第三册/B版": math_compulsory.MathCompulsoryThirdB,
 	"高中/必修/数学/第四册/B版": math_compulsory.MathCompulsoryFourB,
+
+	"高中/选择性必修/数学/第一册/B版": math_selective_compulsory.MathSelectiveCompulsoryFirstB,
 }
