@@ -25,4 +25,5 @@ var Bookmark = map[string][]pdfcpu.Bookmark{
 	"高中/必修/数学/第四册/B版": math_compulsory.MathCompulsoryFourB,
 
 	"高中/选择性必修/数学/第一册/B版": math_selective_compulsory.MathSelectiveCompulsoryFirstB,
+	"高中/选择性必修/数学/第一册/A版": math_selective_compulsory.MathSelectiveCompulsoryFirstA,
 }
