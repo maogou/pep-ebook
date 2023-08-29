@@ -100,3 +100,44 @@ var MathSelectiveCompulsoryFirstA = []pdfcpu.Bookmark{
 	{PageFrom: 155, Title: "后记", Bold: true, Italic: true},
 	{PageFrom: 156, Title: "尾部封面", Bold: true, Italic: true},
 }
+
+var MathSelectiveCompulsorySecondB = []pdfcpu.Bookmark{
+	{PageFrom: 1, Title: "封面"},
+	{PageFrom: 5, Title: "前言"},
+	{PageFrom: 7, Title: "目录"},
+	{PageFrom: 9, Title: "第三章: 排列,组合与二项式定理", Children: []pdfcpu.Bookmark{
+		{PageFrom: 10, Title: "本章导语"},
+		{PageFrom: 11, Title: "3.1 排列与组合", Children: []pdfcpu.Bookmark{
+			{PageFrom: 11, Title: "3.1.1 基本的基数原理"},
+			{PageFrom: 17, Title: "3.1.2 排列与排列数"},
+			{PageFrom: 24, Title: "3.1.3 组合与组合数"},
+		}},
+		{PageFrom: 34, Title: "3.2 数学探究活动: 生日悖论的解释与模拟"},
+		{PageFrom: 38, Title: "3.3 二项式定理与杨辉三角"},
+		{PageFrom: 45, Title: "本章小结3"},
+	}},
+	{PageFrom: 49, Title: "第四章: 概率与统计", Children: []pdfcpu.Bookmark{
+		{PageFrom: 50, Title: "本章导语"},
+		{PageFrom: 51, Title: "4.1 条件概率与事件的独立性", Children: []pdfcpu.Bookmark{
+			{PageFrom: 51, Title: "4.1.1 条件概率"},
+			{PageFrom: 56, Title: "4.1.2 乘法公式与全概率公式"},
+			{PageFrom: 66, Title: "4.1.3 独立性与条件概率的关系"},
+		}},
+		{PageFrom: 72, Title: "4.2 随机变量", Children: []pdfcpu.Bookmark{
+			{PageFrom: 72, Title: "4.2.1 随机变量及其与事件的关联"},
+			{PageFrom: 77, Title: "4.2.2 离散型随机变量的分布列"},
+			{PageFrom: 82, Title: "4.2.3 二项分布于超几何分布"},
+			{PageFrom: 91, Title: "4.2.4 随机变量的数字特征"},
+			{PageFrom: 98, Title: "4.2.4 正态分布"},
+		}},
+		{PageFrom: 108, Title: "4.3 统计模型", Children: []pdfcpu.Bookmark{
+			{PageFrom: 108, Title: "4.3.1 一元线性回归模型"},
+			{PageFrom: 124, Title: "4.3.2 独立性检验"},
+		}},
+		{PageFrom: 131, Title: "4.4 数学探究活动: 了解高考选题科目的确定是否与性别有关"},
+		{PageFrom: 133, Title: "本章小结4"},
+	}},
+
+	{PageFrom: 138, Title: "后记", Bold: true, Italic: true},
+	{PageFrom: 140, Title: "尾部封面", Bold: true, Italic: true},
+}
