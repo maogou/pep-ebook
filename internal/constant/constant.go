@@ -8,12 +8,12 @@ const Logo = `
  | |_) | |  __/ | |_) | |  __/ | |_) |
  | .__/   \___| | .__/   \___| |_.__/
  | |            | |
- |_|            |_|    Version:v1.0.9
+ |_|            |_|    Version:v1.0.10
 
 `
 
 const (
-	Version           = "v1.0.9"
+	Version           = "v1.0.10"
 	DefaultConfigPath = "./config/pep-ebook.yaml"
 	GithubRepo        = "github.com/maogou/pep-ebook@latest"
 	GO111MODULE       = "on"

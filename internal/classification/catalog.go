@@ -174,6 +174,11 @@ var Paths = map[string][]UrlPath{
 			Pages:    140,
 			Remark:   "B版",
 		},
+		{
+			QueryUrl: "https://book.pep.com.cn/1421001128201/files/mobile/%d.jpg?%d",
+			Pages:    114,
+			Remark:   "A版",
+		},
 	},
 	"高中-必修-数学-第二册": {
 		{

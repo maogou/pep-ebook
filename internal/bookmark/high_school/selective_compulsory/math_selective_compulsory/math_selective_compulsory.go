@@ -141,3 +141,33 @@ var MathSelectiveCompulsorySecondB = []pdfcpu.Bookmark{
 	{PageFrom: 138, Title: "后记", Bold: true, Italic: true},
 	{PageFrom: 140, Title: "尾部封面", Bold: true, Italic: true},
 }
+
+var MathSelectiveCompulsorySecondA = []pdfcpu.Bookmark{
+	{PageFrom: 1, Title: "封面"},
+	{PageFrom: 5, Title: "本章引导"},
+	{PageFrom: 6, Title: "目录"},
+	{PageFrom: 7, Title: "第四章: 数列", Children: []pdfcpu.Bookmark{
+		{PageFrom: 8, Title: "4.1 数列的概念"},
+		{PageFrom: 16, Title: "阅读与思考 斐波拉数列"},
+		{PageFrom: 18, Title: "4.2 等差数列"},
+		{PageFrom: 33, Title: "4.3 等比数列"},
+		{PageFrom: 48, Title: "阅读与思考 中国古代数学家求数列和的方法"},
+		{PageFrom: 50, Title: "4.4 数学归纳法"},
+		{PageFrom: 59, Title: "本章小结4"},
+		{PageFrom: 60, Title: "复习参考题4"},
+	}},
+	{PageFrom: 64, Title: "第五章: 一元函数的导数及其应用", Children: []pdfcpu.Bookmark{
+		{PageFrom: 65, Title: "5.1 导数的概念及其意义"},
+		{PageFrom: 78, Title: "5.2 导数的运算"},
+		{PageFrom: 88, Title: "数学探究活动: 牛顿法---用导数方法求方程的近似解"},
+		{PageFrom: 90, Title: "5.3 导数在研究函数中的应用"},
+		{PageFrom: 106, Title: "信息技术应用 图形技术与函数性质"},
+		{PageFrom: 107, Title: "文献阅读与数学写作 微积分的创立与发展"},
+		{PageFrom: 108, Title: "本章小结5"},
+		{PageFrom: 109, Title: "复习参考题5"},
+	}},
+
+	{PageFrom: 111, Title: "部分中英文词汇索引", Bold: true, Italic: true},
+	{PageFrom: 112, Title: "后记", Bold: true, Italic: true},
+	{PageFrom: 114, Title: "尾部封面", Bold: true, Italic: true},
+}
