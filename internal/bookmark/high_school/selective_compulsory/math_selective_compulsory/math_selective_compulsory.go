@@ -171,3 +171,45 @@ var MathSelectiveCompulsorySecondA = []pdfcpu.Bookmark{
 	{PageFrom: 112, Title: "后记", Bold: true, Italic: true},
 	{PageFrom: 114, Title: "尾部封面", Bold: true, Italic: true},
 }
+
+var MathSelectiveCompulsoryThirdA = []pdfcpu.Bookmark{
+	{PageFrom: 1, Title: "封面"},
+	{PageFrom: 5, Title: "本章引导"},
+	{PageFrom: 6, Title: "目录"},
+	{PageFrom: 7, Title: "第六章: 计数原理", Children: []pdfcpu.Bookmark{
+		{PageFrom: 8, Title: "6.1 分类加法计数原理与分布乘法计数原理"},
+		{PageFrom: 18, Title: "探究与发现 子集的个数有多少"},
+		{PageFrom: 20, Title: "6.2 排列与组合"},
+		{PageFrom: 34, Title: "探究与发现 组合数的两个性质"},
+		{PageFrom: 35, Title: "6.3 二项式定理"},
+		{PageFrom: 42, Title: "本章小结6"},
+		{PageFrom: 43, Title: "复习参考题6"},
+	}},
+	{PageFrom: 45, Title: "数学探究 杨辉三角的性质与应用", Bold: true, Italic: true},
+
+	{PageFrom: 49, Title: "第七章: 随机变量及其分布", Children: []pdfcpu.Bookmark{
+		{PageFrom: 50, Title: "7.1 条件概率与全概率公式"},
+		{PageFrom: 59, Title: "阅读与思考 贝叶斯公式与人工智能"},
+		{PageFrom: 62, Title: "7.2 离散型随机恋量及其分布列"},
+		{PageFrom: 68, Title: "7.3 离散型随机变量的数字特征"},
+		{PageFrom: 78, Title: "7.4 二项分布与超几何分布"},
+		{PageFrom: 87, Title: "探究与发现 二项分布的性质"},
+		{PageFrom: 89, Title: "7.5 正态分布"},
+		{PageFrom: 95, Title: "本章小结7"},
+		{PageFrom: 97, Title: "复习参考题7"},
+	}},
+
+	{PageFrom: 98, Title: "第八章: 成对数据的统计分析", Children: []pdfcpu.Bookmark{
+		{PageFrom: 99, Title: "8.1 成对数据的统计相关性"},
+		{PageFrom: 111, Title: "8.2 元线性回归模型及其应用"},
+		{PageFrom: 128, Title: "阅读与思考 回归与相关"},
+		{PageFrom: 130, Title: "8.3 列联表与独文性检验"},
+		{PageFrom: 143, Title: "本章小结8"},
+		{PageFrom: 144, Title: "复习参考题8"},
+	}},
+
+	{PageFrom: 147, Title: "数学建模 建立统计模型进行预测", Bold: true, Italic: true},
+	{PageFrom: 153, Title: "部分中英文词汇索引", Bold: true, Italic: true},
+	{PageFrom: 154, Title: "后记", Bold: true, Italic: true},
+	{PageFrom: 156, Title: "尾部封面", Bold: true, Italic: true},
+}
