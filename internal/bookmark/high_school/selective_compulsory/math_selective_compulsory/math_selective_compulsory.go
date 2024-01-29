@@ -213,3 +213,46 @@ var MathSelectiveCompulsoryThirdA = []pdfcpu.Bookmark{
 	{PageFrom: 154, Title: "后记", Bold: true, Italic: true},
 	{PageFrom: 156, Title: "尾部封面", Bold: true, Italic: true},
 }
+
+var MathSelectiveCompulsoryThirdB = []pdfcpu.Bookmark{
+	{PageFrom: 1, Title: "封面"},
+	{PageFrom: 5, Title: "前言"},
+	{PageFrom: 7, Title: "目录"},
+	{PageFrom: 9, Title: "第五章: 数列", Children: []pdfcpu.Bookmark{
+		{PageFrom: 11, Title: "5.1 数列基础", Children: []pdfcpu.Bookmark{
+			{PageFrom: 11, Title: "5.1.1 数列的概念"},
+			{PageFrom: 17, Title: "5.1.2 数列的递推"},
+		}},
+		{PageFrom: 24, Title: "5.2 等差数列", Children: []pdfcpu.Bookmark{
+			{PageFrom: 24, Title: "5.2.1 等差数列"},
+			{PageFrom: 31, Title: "5.2.2 等差数列的前n项和"},
+		}},
+		{PageFrom: 37, Title: "5.3 等比数列", Children: []pdfcpu.Bookmark{
+			{PageFrom: 37, Title: "5.3.1 等比数列"},
+			{PageFrom: 45, Title: "5.3.2 等比数列的前n项和"},
+		}},
+		{PageFrom: 53, Title: "5.4 数列的应用"},
+		{PageFrom: 60, Title: "5.5 数列的归纳法"},
+		{PageFrom: 65, Title: "本章小结5"},
+		{PageFrom: 65, Title: "本章习题5"},
+	}},
+	{PageFrom: 69, Title: "第六章: 导数及其应用", Children: []pdfcpu.Bookmark{
+		{PageFrom: 71, Title: "6.1 导数", Children: []pdfcpu.Bookmark{
+			{PageFrom: 71, Title: "6.1.1 导数平均变化率"},
+			{PageFrom: 76, Title: "6.1.2 导数及其几何意义"},
+			{PageFrom: 83, Title: "6.1.3 基本初等函数的导数"},
+			{PageFrom: 89, Title: "6.1.4 求导法则及其应用"},
+		}},
+		{PageFrom: 100, Title: "6.2 利用导数研究函数的性质", Children: []pdfcpu.Bookmark{
+			{PageFrom: 100, Title: "6.2.1 导数与函数的单调性"},
+			{PageFrom: 104, Title: "6.2.2 导数与函数的极值"},
+		}},
+		{PageFrom: 111, Title: "6.4 利用导数解决实际问题"},
+		{PageFrom: 117, Title: "6.5 数学建模活动: 描述体重与脉搏率的关系"},
+		{PageFrom: 119, Title: "本章小结6"},
+		{PageFrom: 119, Title: "本章习题6"},
+	}},
+
+	{PageFrom: 123, Title: "后记", Bold: true, Italic: true},
+	{PageFrom: 126, Title: "尾部封面", Bold: true, Italic: true},
+}

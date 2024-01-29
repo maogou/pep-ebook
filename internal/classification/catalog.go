@@ -182,6 +182,11 @@ var Paths = map[string][]UrlPath{
 	},
 	"高中-选择性必修-数学-第三册": {
 		{
+			QueryUrl: "https://book.pep.com.cn/1421001129202/files/mobile/%d.jpg?%d",
+			Pages:    126,
+			Remark:   "B版",
+		},
+		{
 			QueryUrl: "https://book.pep.com.cn/1421001129201/files/mobile/%d.jpg?%d",
 			Pages:    156,
 			Remark:   "A版",

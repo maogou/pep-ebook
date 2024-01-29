@@ -28,5 +28,6 @@ var Bookmark = map[string][]pdfcpu.Bookmark{
 	"高中/选择性必修/数学/第一册/A版": math_selective_compulsory.MathSelectiveCompulsoryFirstA,
 	"高中/选择性必修/数学/第二册/B版": math_selective_compulsory.MathSelectiveCompulsorySecondB,
 	"高中/选择性必修/数学/第二册/A版": math_selective_compulsory.MathSelectiveCompulsorySecondA,
+	"高中/选择性必修/数学/第三册/B版": math_selective_compulsory.MathSelectiveCompulsoryThirdB,
 	"高中/选择性必修/数学/第三册/A版": math_selective_compulsory.MathSelectiveCompulsoryThirdA,
 }
