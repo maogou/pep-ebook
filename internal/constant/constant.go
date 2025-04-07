@@ -19,7 +19,7 @@ const (
 	GO111MODULE       = "on"
 	GOPROXY           = "https://goproxy.cn/,direct"
 	GOPROXYWIn        = "https://goproxy.cn,direct"
-	ImageTmpDir       = "./tmp/"
+	ImageCacheDir     = "./cache/"
 	SavePdfDir        = "./pdf/"
 	Windows           = "windows"
 )

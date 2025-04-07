@@ -1,10 +1,11 @@
 package downloader
 
 import (
-	"github.com/spf13/cast"
-	"github.com/urfave/cli/v2"
 	"sort"
 	"strings"
+
+	"github.com/spf13/cast"
+	"github.com/urfave/cli/v2"
 )
 
 type SortImage struct {
@@ -13,7 +14,7 @@ type SortImage struct {
 
 type fileInfo struct {
 	Name string // 文件名
-	Page int    //页数
+	Page int    // 页数
 }
 
 var _ Chain = (*SortImage)(nil)

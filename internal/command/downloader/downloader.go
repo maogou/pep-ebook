@@ -13,25 +13,26 @@ import (
 
 type Downloader struct {
 	command.DebugLog
-	enableLog    bool
-	err          error
-	ZLog         zerolog.Logger
-	period       string //学段
-	grade        string //年级
-	subject      string //学科
-	paths        []classification.UrlPath
-	imagesTmpDir string
-	pdfDir       string
-	pathKey      string
-	images       map[string][]string
-	pdfBookmark  map[string]string
-	success      map[string]string
-	fail         map[string]string
+	enableLog         bool
+	err               error
+	ZLog              zerolog.Logger
+	period            string // 学段
+	grade             string // 年级
+	subject           string // 学科
+	authenticatedCurl string // 认证请求, 用来提取 cookie/token
+	paths             []classification.UrlPath
+	imagesTmpDir      string
+	pdfDir            string
+	pathKey           string
+	images            map[string][]string
+	pdfBookmark       map[string]string
+	success           map[string]string
+	fail              map[string]string
 }
 
 func newDownloader() *Downloader {
 	return &Downloader{
-		imagesTmpDir: constant.ImageTmpDir,
+		imagesTmpDir: constant.ImageCacheDir,
 		pdfDir:       constant.SavePdfDir,
 		images:       make(map[string][]string),
 		pdfBookmark:  make(map[string]string),
@@ -53,13 +54,15 @@ func (d *Downloader) Execute(ctx *cli.Context) error {
 	createPdfHandler := &CreatePdf{}
 	addBookmarkHandler := &AddBookmark{}
 	printFinishTipsHandler := &PrintFinishTipsHandler{}
-	clearTmpFileHandler := &ClearTmpFile{}
+	// clearTmpFileHandler := &ClearTmpFile{}
+	successPrintHandler := &SuccessPrint{}
 
 	downloadHandler.SetNext(sortImageHandler)
 	sortImageHandler.SetNext(createPdfHandler)
 	createPdfHandler.SetNext(addBookmarkHandler)
 	addBookmarkHandler.SetNext(printFinishTipsHandler)
-	printFinishTipsHandler.SetNext(clearTmpFileHandler)
+	// printFinishTipsHandler.SetNext(clearTmpFileHandler)
+	printFinishTipsHandler.SetNext(successPrintHandler)
 
 	downloadHandler.HandlerRequest(ctx, d)
 
