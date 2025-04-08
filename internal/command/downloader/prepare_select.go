@@ -5,6 +5,7 @@ import (
 	"strings"
 
 	"github.com/maogou/pep-ebook/internal/classification"
+	"github.com/spf13/viper"
 
 	"github.com/AlecAivazis/survey/v2"
 )
@@ -15,6 +16,7 @@ func (d *Downloader) prepareSelect() error {
 		period  string
 		grade   string
 		subject string
+		curl    string
 	)
 
 	prompt := &survey.Select{
@@ -73,9 +75,20 @@ func (d *Downloader) prepareSelect() error {
 		return errors.New("你选择的学段+年级+学科不存在(维护人员正在努力更新中....),请重新选择")
 	}
 
+	if curl = viper.GetString("authenticated_curl"); curl == "" {
+		textPrompt := &survey.Editor{
+			Message: "请访问 " + MakeBookURL(classification.Paths[key][0].BookID) + " 按照 README 输入认证请求",
+			Help:    "输入完成后点击 ESC 键, 再次输入 :wq 保存并关闭编辑器",
+		}
+		if err := survey.AskOne(textPrompt, &curl); err != nil {
+			return errors.New("你中断了输入认证请求")
+		}
+	}
+
 	d.period = period
 	d.grade = grade
 	d.subject = subject
+	d.authenticatedCurl = curl
 	d.paths = classification.Paths[key]
 	d.pathKey = strings.ReplaceAll(key, "-", "/")
 
